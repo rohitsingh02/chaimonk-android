@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/connectButton"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/bg_button_print"
+    android:textColor="#ffffff"
+    android:layout_weight="1"
+    android:text="Connect"/>
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancelButton"
+        android:background="@drawable/bg_button_cancel"
+        android:textColor="#ffffff"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:text="Cancel"/>
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cleanButton"
+        android:background="@drawable/bg_button_print"
+        android:textColor="#ffffff"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:text="Clean"/>
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button_print"
+        android:textColor="#ffffff"
+        android:layout_marginRight="5dp"
+        android:id="@+id/pauseResumeButton"
+        android:layout_weight="1"
+        android:text="Pause"/>
+</LinearLayout>

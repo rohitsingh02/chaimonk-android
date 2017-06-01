@@ -1,0 +1,218 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.OrderSummaryFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/orderListRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/taxViewContainer"
+       />
+
+    <RelativeLayout
+        android:id="@+id/taxViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomContain"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="6dp"
+        android:background="#ffffff"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/sTotal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sub Total"
+                android:textColor="#505993"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/subTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sub Total"
+                android:textColor="#505993"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/sTotal"
+    android:orientation="horizontal"
+    android:id="@+id/vatMrp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vatOnMrpTv"
+        android:layout_weight="1"
+         />
+    <TextView
+        android:id="@+id/vatOnMrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.3" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/vatMrp"
+    android:id="@+id/vatNet">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/vatOnNetTv"
+        />
+    <TextView
+        android:id="@+id/vatOnNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/vatNet"
+    android:id="@+id/SurchargeVat"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/surVatTv"
+        android:layout_weight="1"
+       />
+    <TextView
+        android:id="@+id/surVat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      />
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/SurchargeVat"
+            android:id="@+id/ServiceT"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/serviceTaxTv"
+                 />
+            <TextView
+                android:id="@+id/serviceTax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+        </LinearLayout>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/ServiceT"
+    android:id="@+id/SBC">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/sbcTv"
+         />
+
+    <TextView
+        android:id="@+id/sbc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SurVat"
+         />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/SBC"
+    android:orientation="horizontal"
+    android:id="@+id/KKC">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/kkcTv"
+        />
+    <TextView
+        android:id="@+id/kkc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       />
+
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/KKC">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:id="@+id/GTotalTv"
+            android:layout_weight="1"
+            android:textColor="#505993"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/GTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#505993"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomContain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/editOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Order"
+            android:background="@drawable/edit_order_bg"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</RelativeLayout>
+

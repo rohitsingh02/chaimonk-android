@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="www.chaayos.com.chaimonkbluetoothapp.activities.SettlementActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:id="@+id/topContainer">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Bill Settlement"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="4dp"
+        android:textColor="#ff9933"
+        android:textStyle="bold"
+        android:text="Rs 250"
+        android:id="@+id/amountToPay"
+        />
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="4dp"
+        android:background="#e0e8e0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="#138808"
+        android:textSize="23sp"
+        android:text="Rs 340"
+        android:id="@+id/receivedAmount"/>
+
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/topContainer"
+        android:id="@+id/headerHr"
+        android:background="#888888"/>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/headerHr"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginRight="20dp"
+                android:text="Cash"/>
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:maxLines="1"
+                android:id="@+id/cashEditText"
+                android:layout_marginRight="10dp"
+                />
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_button_go"
+                android:id="@+id/cashGoButton"
+                android:textColor="#ffffff"
+                android:text="Go"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:hint="Customer Name"
+            android:maxLines="1"
+            android:inputType="textPersonName"
+            android:id="@+id/customerNameEt"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/footer"
+        android:id="@+id/footerHr"
+        android:layout_marginBottom="4dp"
+        android:background="#888888"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:id="@+id/footer">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancelButton"
+            android:layout_toLeftOf="@+id/submitButton"
+            android:text="Cancel"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background= "@drawable/bg_button_cancel"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submitButton"
+
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="6dp"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background= "@drawable/bg_button_startorder"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

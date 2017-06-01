@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    tools:context="www.chaayos.com.chaimonkbluetoothapp.fragments.SubCategoryFragment">
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="Back"
+        android:background="@drawable/back_arrow"
+        android:id="@+id/cancelFragmentButton"/>
+    <org.apmem.tools.layouts.FlowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:f="http://schemas.android.com/apk/res/your.namespace"
+        android:id="@+id/subCategoryFlowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cancelFragmentButton"
+        android:padding="5dp"
+        android:gravity="fill">
+    </org.apmem.tools.layouts.FlowLayout>
+
+</RelativeLayout>

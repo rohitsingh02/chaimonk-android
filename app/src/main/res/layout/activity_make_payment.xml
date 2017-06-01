@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.MakePaymentActivity">
+
+    <TextView
+        android:id="@+id/ordersText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/chaayos"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="OrdersSummary"
+        android:textColor="#ffffff"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ordersText"
+        android:orientation="horizontal">
+
+
+        <fragment
+            android:id="@+id/orderSummaryFragment"
+            android:name="www.chaayos.com.chaimonkbluetoothapp.fragments.OrderSummaryFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/balanceContainer"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    card_view:cardBackgroundColor="#ffffff"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/amount_entered"
+                        android:textSize="15sp"
+                        android:background="#00000000"
+                        android:textColor="#505993"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:id="@+id/amountReceived"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="20dp"
+                        android:textSize="40dp"
+                        android:textStyle="bold"
+                        android:textColor="#505993"
+                        android:gravity="center_horizontal"
+                        android:background="#00000000"
+                        android:text="0" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-2dp"
+                    card_view:cardBackgroundColor="#ffffff"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/amount_balance"
+                        android:textColor="#505993"
+                        android:gravity="center_horizontal"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/balanceAmount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textStyle="bold"
+                        android:paddingTop="20dp"
+                        android:textSize="40dp"
+                        android:textColor="#505993"
+                        android:gravity="center_horizontal"/>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/numpadLL"
+                android:orientation="vertical"
+                android:layout_below="@+id/balanceContainer"
+                android:background="#BDBDBD">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/btnrow1"
+                    >
+
+
+                    <Button
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:id="@+id/button1"
+                        android:text="@string/button_one"
+                        android:layout_weight="1"
+                        android:textSize="40dp"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/numpad_btn_bg"
+                        android:textColor="#616161"/>
+
+                    <Button
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:id="@+id/button2"
+                        android:text="@string/button_two"
+                        android:layout_weight="1"
+                        android:textSize="40dp"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/numpad_btn_bg" android:textColor="#616161"/>
+
+                    <Button
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:id="@+id/button3"
+                        android:text="@string/button_three"
+                        android:layout_weight="1"
+                        android:textSize="40dp"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/numpad_btn_bg"
+                        android:textColor="#616161"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:id="@+id/button4"
+                        android:text="@string/button_four"
+                        android:layout_weight="1"
+                        android:textSize="40dp"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/numpad_btn_bg" android:textColor="#616161"/>
+
+                    <Button
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:id="@+id/button5"
+                        android:text="@string/button_five"
+                        android:layout_weight="1"
+                        android:textSize="40dp"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/numpad_btn_bg" android:textColor="#616161"/>
+
+                    <Button
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:id="@+id/button6"
+                        android:text="@string/button_six"
+                        android:layout_weight="1"
+                        android:textSize="40dp"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/numpad_btn_bg" android:textColor="#616161"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:id="@+id/button7"
+                        android:text="@string/button_seven"
+                        android:layout_weight="1"
+                        android:textSize="40dp"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/numpad_btn_bg" android:textColor="#616161"/>
+
+                    <Button
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:id="@+id/button8"
+                        android:text="@string/button_eight"
+                        android:layout_weight="1"
+                        android:textSize="40dp"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/numpad_btn_bg" android:textColor="#616161"/>
+
+                    <Button
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:id="@+id/button9"
+                        android:text="@string/button_nine"
+                        android:layout_weight="1"
+                        android:textSize="40dp"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/numpad_btn_bg" android:textColor="#616161"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonClear"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/button_clear"
+                        android:layout_weight="1"
+                        android:textSize="30dp"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/numpad_btn_bg" android:textColor="#616161"/>
+
+                    <Button
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:id="@+id/button0"
+                        android:text="@string/button_zero"
+                        android:layout_weight="1"
+                        android:textSize="40dp"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/numpad_btn_bg" android:textColor="#616161"/>
+
+                    <Button
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:id="@+id/buttonCancel"
+                        android:text="@string/button_delete"
+                        android:layout_weight="1"
+                        android:textSize="30dp"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/numpad_btn_bg" android:textColor="#616161"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/button_make_payment"
+                android:layout_below="@+id/numpadLL"
+                android:id="@+id/finishButton"
+                android:padding="5dp"
+                android:textSize="23sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/bg_button_print" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
+

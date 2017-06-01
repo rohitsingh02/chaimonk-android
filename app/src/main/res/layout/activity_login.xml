@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".activities.LoginActivity">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg" />
+
+            <LinearLayout
+                android:layout_width="450dp"
+                android:layout_height="420dp"
+                android:orientation="vertical"
+                android:elevation="10dp"
+                android:background="@drawable/login_background_shape"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo"
+                    />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        android:hint="@string/hint_user_id"
+                        android:maxLines="1"
+                        android:id="@+id/userIdEditText" />
+
+                </android.support.design.widget.TextInputLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ProgressBar
+                        android:id="@+id/pb_chai_monk_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:elevation="50dp"
+                        android:padding="5dp"/>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        android:hint="@string/hint_password"
+                        android:maxLines="1"
+                        android:inputType="textPassword"
+                        android:id="@+id/passcodeEditText" />
+                </android.support.design.widget.TextInputLayout>
+        </FrameLayout>
+
+                <www.chaayos.com.chaimonkbluetoothapp.InstantAutoComplete
+                    android:id="@+id/instant_auto_complete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="15dp"
+                    android:allowUndo="false"
+                    android:inputType="textAutoComplete"
+                    android:hint="@string/autocomplete_hint"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:background="@drawable/login_btn_bg"
+                    android:textColor="#ffffff"
+                    android:text="@string/button_login"
+                    android:textSize="30dp" />
+            </LinearLayout>
+        </FrameLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+

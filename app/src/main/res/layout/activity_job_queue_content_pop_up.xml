@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/order_item_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/reprintView"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reprintView"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_button"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="@drawable/bg_button_close"
+            android:id="@+id/cancelBtn"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reprint_button"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bg_button_print"
+            android:id="@+id/reptintButton"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ChaiMonk</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_job_queue_content_pop_up">JobQueueContentPopUpActivity</string>
+    <string name="title_activity_make_payment">MakePaymentActivity</string>
+    <string name="admin_panel">Settings</string>
+    <string name="monk_waiting_time">Monk Queue Waiting Time</string>
+    <string name="machines">Machines</string>
+    <string name="reprint_button">Reprint</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="hint_user_id">User Id</string>
+    <string name="hint_password">Password</string>
+    <string name="autocomplete_hint">select_unit_from_list</string>
+    <string name="button_login">Login</string>
+    <string name="amount_entered">Entered Amount</string>
+    <string name="amount_balance">Balance Amount</string>
+    <string name="button_clear">clear</string>
+    <string name="button_delete">DEL</string>
+    <string name="button_make_payment">Make Payment</string>
+    <string name="button_zero">0</string>
+    <string name="button_one">1</string>
+    <string name="button_two">2</string>
+    <string name="button_three">3</string>
+    <string name="button_four">4</string>
+    <string name="button_five">5</string>
+    <string name="button_six">6</string>
+    <string name="button_seven">7</string>
+    <string name="button_eight">8</string>
+    <string name="button_nine">9</string>
+    <string-array name="time_listArray">
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>3 min</item>
+        <item>4 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+</resources>
+

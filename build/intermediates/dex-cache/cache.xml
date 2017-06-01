@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_d44be4343c29a8b8185f62dc58422fb194f47f53/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.13/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="23e3acde10f4cf52778f8dc88107fb96459f2392">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.fabric.sdk.android-fabric-1.3.13_cedbb2573430047f4b7ee5a859c1618b73c5cfe7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.4.0_cda10e324ba0170e75b1a03c8b81a7341b775c26/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_8c0905868ab8f939708c76a5f70c1b0c207fc2c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_8a91fe5b3e4fea21a493a54b5860595af08dd16f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_dbe53a79a4a3b5080ea45dd74d5176aa4f0d345d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_552c869c1a66ff2f170d64f0ae1b843fd0c1a146/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.9/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e3376f705dc1863a8782faf275e56f188b8129eb">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-answers-1.3.9_6491262bb4ad6dc92273a7402eb0141eaa1c8524/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_91bdfd138f2e6bc8c2fc7dc9e3c363537903057c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_cf024f44ea51841fb52f438c8bc9cf7d11ae9054/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_2a9503e30e843af7fcea90cf3c5ebc2b9715549c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.2.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-beta-1.2.2_82514a238a7d3d011972f4edfa2529f9d663bd61/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/exploded-aar/org.apmem.tools/layouts/1.10/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7a9f96bfbb71dc928a5d01440d879ef17f3f2349">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/org.apmem.tools-layouts-1.10_f7c699e7937a5c2d8404a2a6ffe4ce469dd0a5f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.6.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a637ea73d78e58f13decdc721b01817d39941f10">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-2.6.2_68c0e3d93e6ca795d248688bc4792273a05c36fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_b5e39651211f754e46a8fff398f6e5549c3a3147/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_406250ccdd6cce56e05c7bf1094488db43a7093f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8e21e1505d90747a93fafbe5c3de87c15055c781">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a4b7e27d71bcb3359302fd565993f1a4fa15c9f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_3476b697dc90507ad53134d127315ce447a5f514/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/libs/ePOS2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4ee37eedd7c587a99c6fd3f46148180083fc870b">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/2/ePOS2_afbe8935303cf7e5b365e9ceaea51df10908baed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_f112d8df55856f70d427fda4177f11ec29e14ffc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_5e728170ee19a4e172abb5417aece0c991b89154/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7693b1c502d08dedde5d94e578f005b1ef873973">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_20aa817da925be752f4157ec5c9d8a4141cc9ccf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/libs/ePOSEasySelect.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4591044b948a03dec044944a18bdf63d3c1a2bef">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/2/ePOSEasySelect_ccf37c77309fd0f70cd836bf0abc0de392df1c58/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.11/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e3e366ad917b1fd4de5f1a0626d4e9af903dba52">
+        <dex dex="/Users/rohitsingh/Desktop/chaimonk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-core-2.3.11_532b488d1e1833947855404be4331a85efc66d08/classes.dex" />
+    </item>
+
+</items>
